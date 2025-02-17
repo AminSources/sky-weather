@@ -8,6 +8,10 @@ class txt extends StatelessWidget {
   final FontWeight? fontWeight;
   final TextAlign? textAlign;
   final String? fontFamily;
+  final int? maxLine;
+  final TextOverflow? textOverflow;
+  final TextDecoration? decoration;
+  final Color? decorationColor;
 
   const txt(this.text,
       {this.size,
@@ -15,6 +19,10 @@ class txt extends StatelessWidget {
       this.fontWeight,
       this.textAlign,
       this.fontFamily,
+      this.maxLine,
+      this.textOverflow,
+      this.decoration,
+      this.decorationColor,
       super.key});
 
   @override
@@ -22,7 +30,11 @@ class txt extends StatelessWidget {
     return Text(
       text,
       textAlign: textAlign,
+      maxLines: maxLine,
+      overflow: textOverflow,
       style: TextStyle(
+        decoration: decoration,
+        decorationColor: decorationColor,
         fontSize: size,
         color: color,
         fontFamily: fontFamily ?? "poppins",
