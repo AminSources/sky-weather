@@ -13,17 +13,19 @@ class txt extends StatelessWidget {
   final TextDecoration? decoration;
   final Color? decorationColor;
 
-  const txt(this.text,
-      {this.size,
-      this.color,
-      this.fontWeight,
-      this.textAlign,
-      this.fontFamily,
-      this.maxLine,
-      this.textOverflow,
-      this.decoration,
-      this.decorationColor,
-      super.key});
+  const txt(
+    this.text, {
+    this.size,
+    this.color,
+    this.fontWeight,
+    this.textAlign,
+    this.fontFamily,
+    this.maxLine,
+    this.textOverflow,
+    this.decoration,
+    this.decorationColor,
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +38,7 @@ class txt extends StatelessWidget {
         decoration: decoration,
         decorationColor: decorationColor,
         fontSize: size,
-        color: color,
+        color: color ?? Theme.of(context).colorScheme.onPrimary,
         fontFamily: fontFamily ?? "poppins",
         fontWeight: fontWeight,
       ),

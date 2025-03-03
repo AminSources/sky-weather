@@ -8,16 +8,14 @@ plugins {
     id("dev.flutter.flutter-gradle-plugin")
 }
 
-
 val keystoreProperties = Properties()
 val keystorePropertiesFile = rootProject.file("key.properties")
 if (keystorePropertiesFile.exists()) {
     keystoreProperties.load(FileInputStream(keystorePropertiesFile))
 }
 
-
 android {
-    namespace = "com.example.sky_weather_app"
+    namespace = "com.example.sky_weather"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -32,13 +30,13 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.aminlibrary.sky_weather_app"
+        applicationId = "com.aminsources.sky_weather"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
-        versionCode = 1
-        versionName = "03.11.29.1"
+        versionCode = 2
+        versionName = "03.12.13.2"
     }
 
     signingConfigs {
