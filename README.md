@@ -1,13 +1,14 @@
-![Version](https://img.shields.io/badge/version-03.11.29.1-yellow)
+![Version](https://img.shields.io/badge/version-03.12.13.2-yellow)
 ![Based On](https://img.shields.io/badge/Base-Flutter-blue)
 ![lang](https://img.shields.io/badge/lang-dart-9cf)
 
-<img src="https://github.com/user-attachments/assets/56d23f60-fb6d-4630-9b2f-b16d72331108" alt="Logo" width="80" height="80">
+<img src="https://github.com/user-attachments/assets/c9f4f68d-91ba-486f-ab55-d69736a65adf" alt="Logo" width="80" height="80">
 
 # Sky weather application
 
 ## About
 Sky weather is an simple & beautiful weather application built with Flutter Framework.
+this app uses openWeatherMap , One-service, aqicn web services to provide meterological services.
 
 <p>
 <img src="https://img.icons8.com/color/35/000000/flutter.png"/> 
@@ -18,21 +19,27 @@ Sky weather is an simple & beautiful weather application built with Flutter Fram
 
 ### Screenshots
 <div display: "inline-block";>
-<img src="https://github.com/user-attachments/assets/5e797c64-b540-419d-9077-a55fcafe0c42" alt="screenshot" width="250">
-<img src="https://github.com/user-attachments/assets/a72d5e7b-da57-41e1-9be0-69803c110822" alt="screenshot" width="250">
+<img src="https://github.com/user-attachments/assets/125db356-2a91-478a-9c8e-cca75e3c26a5" alt="screenshot" width="250">
+<img src="https://github.com/user-attachments/assets/7e6e137b-1c8d-4440-9778-180a8c16d5e4" alt="screenshot" width="250">
+<img src="https://github.com/user-attachments/assets/138ad621-d6fc-480b-9ef6-9b4afa7f2347" alt="screenshot" width="250">
 </div>
 
 ### Features
-* Search all Countries and cities
-* Location current clock time
-* Forecast days weathers up to 16 days with date, day, time
-* Location weather details like ( wind speed, Sunrise & Sunset time, Humidity )
+* Search all locations
+* Current weather of the location
+* Weather forcase for 7 next days ( date , min and max temp, humidity, weather icon )
+* Details of the weather in the location ( wind speed, humidity, pressure, visibility )
+* Sunrise and sunset time
+* Weather air quality
+* Dark theme
 
 ### Dev Features
 * Flutter framework & Dart language
 * Clean architecture
-* getStorage database
+* GetStorage database
 * DIO
+* Dependency injection ( get it pkg )
+* Bloc state management
 * flutter lint
 * Mock test
 
