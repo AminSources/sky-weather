@@ -22,6 +22,7 @@ this app uses openWeatherMap , One-service, aqicn web services to provide metero
 <img src="https://github.com/user-attachments/assets/125db356-2a91-478a-9c8e-cca75e3c26a5" alt="screenshot" width="250">
 <img src="https://github.com/user-attachments/assets/7e6e137b-1c8d-4440-9778-180a8c16d5e4" alt="screenshot" width="250">
 <img src="https://github.com/user-attachments/assets/138ad621-d6fc-480b-9ef6-9b4afa7f2347" alt="screenshot" width="250">
+<img src="https://github.com/user-attachments/assets/d142cf48-f666-4109-b991-07bd8cf46b74" alt="screenshot" width="250">
 </div>
 
 ### Features
